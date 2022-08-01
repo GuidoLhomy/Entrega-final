@@ -5,6 +5,6 @@
         "categoria": "mesas",
         "precio": 2700,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
-        "imagenes": "../assets/imagenes/mesadepino.jpg"
+        "img": "../assets/imagenes/mesadepino.jpg"
     }
 ]
