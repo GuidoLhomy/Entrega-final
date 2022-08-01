@@ -6,5 +6,77 @@
         "precio": 2700,
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
         "img": "../assets/img/mesadepino.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Mesa de melamina",
+        "categoria": "mesas",
+        "precio": 3500,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+        "img": "../assets/img/mesademelamina.png"
+    },
+    {
+        "id": 3,
+        "nombre": "silla  de Pino",
+        "categoria": "sillas",
+        "precio": 1500,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+        "img": "../assets/img/silladepino.png"
+    },
+    {
+        "id": 4,
+        "nombre": "silla de roble",
+        "categoria": "sillas",
+        "precio": 1750,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+        "img": "../assets/img/mesasilladeroble.png"
+    },
+    {
+        "id": 5,
+        "nombre": "cama doble",
+        "categoria": "camas",
+        "precio": 12700,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+        "img": "../assets/img/camadoble.png"
+    },
+    {
+        "id": 6,
+        "nombre": "cama simple",
+        "categoria": "camas",
+        "precio": 10000,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+        "img": "../assets/img/camasimple.png"
+    },
+    {
+        "id": 7,
+        "nombre": "mesa de luz",
+        "categoria": "mesas de luz",
+        "precio": 2700,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+        "img": "../assets/img/mesadeluz.png"
+    },
+    {
+        "id": 8,
+        "nombre": "ropero",
+        "categoria": "roperos",
+        "precio": 7500,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+        "img": "../assets/img/ropero.png"
+    },
+    {
+        "id": 9,
+        "nombre": "escritorio",
+        "categoria": "escritorios",
+        "precio": 2400,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+        "img": "../assets/img/escritorio.png"
+    },
+    {
+        "id": 10,
+        "nombre": "cajonera",
+        "categoria": "cajoneras",
+        "precio": 3500,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+        "img": "../assets/img/cajonera.png"
     }
 ]
