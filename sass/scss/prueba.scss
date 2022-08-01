@@ -83,13 +83,9 @@ $color-secundario: #d18f1c;
         width: 16rem;
       }
     
-      .grillaContainer {
-        display: -webkit-box;
-        display: -ms-flexbox;
+      .grillaContainer{
         display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        justify-content: center;
       }
       
       table {
@@ -106,7 +102,7 @@ $color-secundario: #d18f1c;
       }
       
       thead tr th {
-        background: #A2E0B0;
+        background: $color-primario;
         color: #000;
       }
       
@@ -119,15 +115,15 @@ $color-secundario: #d18f1c;
       }
       
       tbody tr:nth-child(even) {
-        background: #A2E0B0;
+        background: $color-primario;
       }
       
       tbody tr:nth-child(odd) {
-        background: #A2E0B0;
+        background: $color-primario;
       }
       
       tfoot tr th {
-        background: #A2E0B0;
+        background: $color-primario;
         color: #000;
       }
       
@@ -148,27 +144,22 @@ $color-secundario: #d18f1c;
         font-size: 20px;
       }
       
-      #form {
+      #form{ 
         padding-top: 2%;
-      }
-      
-      #form h3 {
+      h3{
         margin-bottom: 30px;
-      }
-      
-      #form .formulario {
-        display: -ms-grid;
+        }
+      .formulario{
         display: grid;
         gap: 10px;
+        }
       }
       
+      
       .btn-container {
-        display: -webkit-box;
-        display: -ms-flexbox;
+        
         display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        justify-content: center;
         padding-top: 30px;
       }
 
@@ -188,76 +179,21 @@ $color-secundario: #d18f1c;
     }
 
     @media (min-width: 600px) {
-        body {
-            grid-template-columns: 30% auto;
-            grid-template-rows: 1fr;
-            grid-template-areas:
-                "navbar navbar"
-                "header header"
-                "main aside"
-                "footer footer";
-        }
-    
-        h1 {
-            font-size: 60px;
-        }
-    
-        
-        .main {
-            
-            form {
-                width: 50%;
-            }
-    
-            .columna{
-                width: 30%;
-            } 
-        }
-    
-        
+      #stockContainer{
+        display: grid;
+        justify-content: space-between;
+        grid-template-areas:   'card card card';
+      }
     }
+    
     
     @media (min-width: 900px) {
-        body {
-    
-            grid-template-columns: 350px auto;
-            grid-template-rows: 1fr;
-            grid-template-areas:
-                "navbar navbar navbar"
-                "header header header"
-                "aside main main"
-                "footer footer footer";
-        }
+      
+      #stockContainer{
+        display: grid;
+        justify-content: space-between;
+        grid-template-areas:   'card card';
+      }
+      
     }
     
-    @media (min-width: 1200px) {
-        body {
-    
-            grid-template-columns: 35% auto;
-            grid-template-rows: 1fr;
-            grid-template-areas:
-                "navbar"
-                "header"
-                "aside"
-                "main"
-                "footer";
-        }
-    
-        .columna{
-            width: 30%
-        }
-    
-        .banner-principal {
-            @include size(100%);
-    
-        }
-    
-        .texto-home {
-            margin: 0 20% 5%;
-        }
-    
-        .video {
-            width: 60%;
-        }
-    
-    }
